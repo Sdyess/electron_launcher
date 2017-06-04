@@ -9,8 +9,90 @@ body {
     background-repeat: no-repeat;
     border: none;
     color: white;
+    opacity: 0.75;
 }
 
 #playButton:hover {
     background: url("images/play_hover_button.png");
+}
+
+#bottom-buttons {
+	position: absolute;
+    top: 493px;
+    left: 10px;
+}
+
+.play {
+	position: absolute;
+    top: 482px;
+    left: 799px;
+}
+
+.checkboxes {
+	text-align: right;
+	font-size: 9px;
+	color: white;
+	position: absolute;
+    top: 500px;
+    left: 700px;
+    line-height: 13px;
+}
+
+/* TODO: style checkboxes somehow */
+.checkboxes input {
+	position: relative;
+	vertical-align: middle;
+	bottom: 1px;
+}
+
+button.generic {
+	background: url("images/generic_button.png");
+	width: 121px;
+    height: 42px;
+    background-repeat: no-repeat;
+    border: none;
+    color: white;
+    margin-left: 10px;
+}
+
+button.generic:hover {
+	background: url("images/hover_button.png");
+}
+
+.logo {
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+.heading {
+	color: yellow;
+	margin-bottom: 0px;
+	padding-top: 5px;
+}
+
+.sub-heading {
+	color: white;
+	margin-top: 0px;
+}
+
+.top-navbar {
+	background: url("images/navbar_top.png");
+	opacity: 0.7;
+	width: 400px;
+	height: 30px;
+	line-height: 30px;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 71px;
+	left: 578px;
+	text-align: center;
+}
+
+.top-navbar a {
+	font-size: 10px;
+	color: white;
+	text-decoration: none;
+	margin-left: 10px;
+	padding-top: 10px;
 }

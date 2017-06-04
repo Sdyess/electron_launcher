@@ -13,6 +13,7 @@ let mainWindow
 
 function createWindow() {
     // Create the browser window.
+    // removed frame: false, for testing, replace before final
     mainWindow = new BrowserWindow({ width: 980, height: 560, frame: false, resizable: false });
 
     // and load the index.html of the app.
