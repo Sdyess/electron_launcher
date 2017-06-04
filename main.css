@@ -1,0 +1,16 @@
+body {
+    background-image: url("images/background.png");
+}
+
+#playButton {
+    background: url("images/play_button.png");
+    width: 168px;
+    height: 64px;
+    background-repeat: no-repeat;
+    border: none;
+    color: white;
+}
+
+#playButton:hover {
+    background: url("images/play_hover_button.png");
+}
