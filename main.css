@@ -1,5 +1,9 @@
 body {
     background-image: url("images/background.png");
+    /* prevent annoying text selection */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 #playButton {
@@ -95,4 +99,134 @@ button.generic:hover {
 	text-decoration: none;
 	margin-left: 10px;
 	padding-top: 10px;
+}
+
+.news {
+	width: 485px;
+}
+
+.latest_news {
+	background: black;
+	opacity: 0.75;
+	position: absolute;
+	width: 250px;
+	height: 340px;
+	top: 102px;
+	left: 31px;
+	display: inline;
+}
+
+.latest_news .header h5 {
+	color: orange;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+}
+
+.latest_news .header h6 {
+	color: white;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+	margin-right: 0px;
+}
+
+.latest_news .header img {
+	margin-top: 5px;
+}
+
+.latest_news .separator {
+	text-align: center;
+	height: 0;
+	width: 95%;
+	border: 0;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid black;
+	margin-top: 0px;
+	margin-left: 6px;
+}
+
+.news_main_body {
+	height: 260px;
+	margin-left: 10px;
+	margin-right: 10px;
+	overflow-x: auto;
+}
+
+#news_title {
+	color: white;
+	font-size: 14px;
+}
+
+#news_body {
+	color: #656565;
+	font-size: 12px;
+}
+
+.old_news {
+	margin-top: 21px;
+	width: 195px;
+	float: right;
+}
+
+.item {
+	background: url("images/old_news.png");
+	opacity: 0.75;
+	width: 194px;
+	height: 39px;
+	margin-bottom: 11px;
+}
+
+.item:hover {
+	background: url("images/old_news_hover.png");
+}
+
+.old_news .item .old_header{
+	font-size: 10px;
+	color: white;
+	margin-top: 0px;
+	padding-top: 7px;
+	margin-left: 6px;
+	margin-bottom: 1px;
+}
+
+.old_news .item .old_timestamp{
+	font-size: 9px;
+	color: gray;
+	float: left;
+	margin-left: 6px;
+	margin-top: 2px;
+}
+
+.menu_buttons {
+	float: right;
+	top: 0px;
+	width: 30px;
+	display: inline-block;
+}
+
+.menu_buttons img {
+	width: 10px;
+	height: 10px;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+
+.menu_buttons #btn_close {
+	color: red;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+
+/* this stuff doesn't work... */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-thumb-vertical {
+	color: white;
+    border-radius: 10px;
 }
