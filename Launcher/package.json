@@ -1,0 +1,15 @@
+{
+  "name": "wow-launcher",
+  "version": "1.0.0",
+  "description": "A World of Warcraft game launcher",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/Sdyess/electron_launcher",
+  "author": "Sdyess",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~2.0.2"
+  }
+}
